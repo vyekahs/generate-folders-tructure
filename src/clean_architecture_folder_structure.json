@@ -1,0 +1,25 @@
+{
+  "appName": {
+    "data": {
+      "model": null,
+      "repository": null
+    },
+    "domain": {
+      "entities": null,
+      "exceptions": null,
+      "usecase": null
+    },
+    "infrastructure": {
+      "adapters": null,
+      "repository": null
+    },
+    "presentation": {
+      "controllers": null,
+      "dto": {
+        "input": null,
+        "output": null
+      }
+    },
+    "appName.module.ts": "test"
+  }
+}
