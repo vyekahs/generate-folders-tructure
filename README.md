@@ -15,7 +15,7 @@ The _Generate Folder Structure_ extension is designed to simplify the process of
 ## Usage
 
 1. Open Visual Studio Code and navigate to your workspace.
-2. Create a `folder_structure.json` file in the desired folder where you want to generate the folder structure.
+2. "Create a `folder_structure.json` file in the root folder of your workspace where you want to generate the folder structure."
 3. Define the desired folder structure within the `folder_structure.json` file. Here's an example structure:
 
 ```json
@@ -32,10 +32,12 @@ The _Generate Folder Structure_ extension is designed to simplify the process of
 }
 ```
 
-4. Save the **'folder_structure.json'** file.
+4. Save the `folder_structure.json`'\*\*` file.
 5. Right-click on the desired folder in the workspace.
 6. From the context menu, select "Generate Folder Structure".
-7. The extension will read the **'folder_structure.json'** file and create the corresponding folders and files within the selected folder.
+7. The extension will read the `folder_structure.json` file and create the corresponding folders and files within the selected folder.
 8. Once the folder structure is generated, you can navigate to the selected folder and verify the created structure.
 
-The Generate Folder Structure extension simplifies the process of creating folder structures, saving you time and effort in setting up your project directories. By leveraging the power of the **'folder_structure.json'** file, you can quickly generate standardized folder structures tailored to your project needs.
+The Generate Folder Structure extension simplifies the process of creating folder structures, saving you time and effort in setting up your project directories. By leveraging the power of the `folder_structure.json` file, you can quickly generate standardized folder structures tailored to your project needs.
+
+This extension was created by chatGPT.

@@ -1,23 +1,37 @@
 {
   "name": "generatefolderstructure",
   "displayName": "generateFolderStructure",
-  "description": "",
-  "version": "0.0.1",
+  "description": "'Generate Folder Structure' is an extension for Visual Studio Code that allows you to generate folder structures based on a folder_structure.json file located in the root folder. With this extension, you can easily create folder structures for your projects without manually creating each folder and file.",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.78.0"
   },
+  "publisher": "pyodamon",
   "categories": [
     "Other"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vyekahs/generateFolderStructure.git"
+  },
   "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "generatefolderstructure.helloWorld",
-        "title": "Hello World"
+        "command": "extension.generateFolderStructure",
+        "title": "Generate Folder Structure"
       }
-    ]
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "extension.generateFolderStructure",
+          "group": "3_modification",
+          "when": "explorerResourceIsFolder"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
