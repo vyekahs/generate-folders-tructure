@@ -12,6 +12,10 @@ The _Generate Folder Structure_ extension is designed to simplify the process of
 - **Customizable Folder Structure**: Users can define and modify the folder structure by editing the `folder_structure.json` file according to their project requirements.
 - **Visual Feedback**: Once the folder structure is generated, the extension provides visual feedback to indicate the successful completion of the operation.
 
+## Example
+
+![](https://github.com/vyekahs/generate-folders-tructure/blob/main/assets/example.gif?raw=true)
+
 ## Usage
 
 1. Open Visual Studio Code and navigate to your workspace.
