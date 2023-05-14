@@ -32,7 +32,7 @@ The _Generate Folder Structure_ extension is designed to simplify the process of
 }
 ```
 
-4. Save the `folder_structure.json`'\*\*` file.
+4. Save the `folder_structure.json` file.
 5. Right-click on the desired folder in the workspace.
 6. From the context menu, select "Generate Folder Structure".
 7. The extension will read the `folder_structure.json` file and create the corresponding folders and files within the selected folder.
